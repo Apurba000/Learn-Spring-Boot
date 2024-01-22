@@ -21,3 +21,13 @@ The following guides illustrate how to use some features concretely:
 ## Start here
 
 [Start project](https://spring.io/guides/gs/spring-boot/)
+
+### installing the application with JAR <- Traditional way
+`mvn clean install`
+
+and then running the JAR
+
+### installing the application without JAR <- with the help of Tomcat
+`./mvnw spring-boot:run`
+
+[More](https://www.educba.com/spring-boot-run-command)
